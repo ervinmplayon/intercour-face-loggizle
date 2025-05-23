@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ervinmplayon/intercour-face-logger/logger"
+	"github.com/ervinmplayon/intercour-face-loggizle/logger"
 )
 
 func main() {
