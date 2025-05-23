@@ -16,9 +16,9 @@ func (l *LogrusLogger) Info(msg string) {
 }
 
 func (l *LogrusLogger) Error(msg string) {
-	l.l.Info(msg)
+	l.l.Error(msg)
 }
 
 func (l *LogrusLogger) Debug(msg string) {
-	l.l.Info(msg)
+	l.l.Debug(msg)
 }
