@@ -3,3 +3,4 @@ Logger Implemented using Interfaces
 
 ## TODOs
 - [ ] publish different logger variants
+- [ ] JSON logger variant
