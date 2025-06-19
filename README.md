@@ -10,3 +10,6 @@ Logger Implemented using Interfaces
 
 ## Different Logger Variants
 Add implementations under the `logger` package and consumers can choose what to instantiate. I can now set up a `go.work` space locally to develop both repos side-by-side without needing to push every time. But lets face it: I like those github commit boxes green. 
+
+## Version
+v0.1.0
