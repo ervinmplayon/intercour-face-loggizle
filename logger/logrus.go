@@ -22,3 +22,7 @@ func (l *LogrusLogger) Error(msg string) {
 func (l *LogrusLogger) Debug(msg string) {
 	l.l.Debug(msg)
 }
+
+func (l *LogrusLogger) Fatal(msg string) {
+	l.l.Fatal(msg)
+}
