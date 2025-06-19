@@ -17,3 +17,7 @@ func (l *StandardLogger) Error(msg string) {
 func (l *StandardLogger) Debug(msg string) {
 	log.Printf("[DEBUG] %s", msg)
 }
+
+func (l *StandardLogger) Fatal(msg string) {
+	log.Fatalf("[FATAL] %s", msg)
+}
