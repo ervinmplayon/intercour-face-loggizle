@@ -9,6 +9,8 @@ func main() {
 	log.Info("Live Like Dionysius")
 	log.Debug("Imagine Sisyphus Happy")
 	log.Error("Other People are Hell")
+	// ! what if logged fatal? os.Exit(1) would be called
+	// ! ;p
 
 	log = logger.NewLogrusLogger()
 	log.Info("Logrus: Live Like Dionysius")
